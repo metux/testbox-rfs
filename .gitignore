@@ -1,0 +1,8 @@
+.*
+!.gitignore
+
+*~
+\#*#
+
+elbe-*/
+initvm/
