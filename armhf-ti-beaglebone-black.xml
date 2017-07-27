@@ -46,7 +46,7 @@
 	<label>rfs</label>
 	<mountpoint>/</mountpoint>
 	<fs>
-	  <type>ext2</type>
+	  <type>ext4</type>
 	  <tune2fs>-i 0</tune2fs>
 	</fs>
       </bylabel>
