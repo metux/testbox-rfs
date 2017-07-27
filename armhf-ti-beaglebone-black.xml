@@ -75,8 +75,11 @@
       <pkg>less</pkg>
       <pkg>bash</pkg>
       <pkg>vim-tiny</pkg>
+      <pkg>emacs-nox</pkg>
       <pkg>wget</pkg>
       <pkg>ntpdate</pkg>
+      <pkg>ntp</pkg>
+      <pkg>net-tools</pkg>
       <pkg>busybox</pkg>
       <pkg>flash-kernel</pkg>
       <pkg>u-boot-tools</pkg>
