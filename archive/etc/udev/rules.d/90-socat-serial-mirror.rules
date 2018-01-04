@@ -1,0 +1,7 @@
+ACTION=="remove", GOTO="serial_mirror_end"
+SUBSYSTEM!="tty", GOTO="serial_mirror_end"
+
+KERNEL=="ttyACM0", RUN+="/usr/local/sbin/mirror_serial $env{DEVNAME}"
+KERNEL=="ttyUSB0", RUN+="/usr/local/sbin/mirror_serial $env{DEVNAME}"
+
+LABEL="serial_mirror_end"

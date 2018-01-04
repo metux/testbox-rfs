@@ -1,0 +1,8 @@
+auto br0
+iface br0 inet manual
+    bridge_ports wan lan1 lan2 lan3 lan4
+    bridge_maxwait 1
+    pre-up ip link set eth0 up
+    post-down ip link set eth0 down
+    up ip link add link eth0 name eth0.1 type vlan id 1
+    pre-down ip link del link dev eth0.1
