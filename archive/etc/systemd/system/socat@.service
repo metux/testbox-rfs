@@ -1,0 +1,8 @@
+[Unit]
+Description=Start socat console redirection
+Documentation=man:socat
+
+[Service]
+User=root
+ExecStart=/usr/local/sbin/mirror_serial %I
+Type=simple

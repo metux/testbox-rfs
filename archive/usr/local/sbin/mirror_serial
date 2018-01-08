@@ -3,4 +3,4 @@
 stty 115200 < $1
 stty 115200 < /dev/ttyS2
 
-socat $1,raw,echo=0,crnl /dev/ttyS2,raw,echo=0,crnl &
+socat $1,raw,echo=0,crnl /dev/ttyS2,raw,echo=0,crnl
