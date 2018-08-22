@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp armhf-sunxi-bananapi-r1.xmltmpl armhf-sunxi-bananapi-r1.xml
+elbe chg_archive armhf-sunxi-bananapi-r1.xml archive
+elbe initvm submit armhf-sunxi-bananapi-r1.xml
